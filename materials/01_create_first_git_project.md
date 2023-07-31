@@ -34,5 +34,21 @@
 5. optional: set your basic identification configuration settings
     ```
     git config --global user.name "First-name Last-name"
-    git config --
+    git config --global user.email emailAddress@provider
+    ```
+6. stage your project files with the **git add** command
+    ```
+    git add .
+    git status
+    ```
+
+7. commit the files, we can use whether commit message (comment) we want
+    ```
+    git commit -m 'initial commit'
+    ```
+
+8. edit files, we can just use the ">>" to append something to the existing file's content
+
+    ```
+    echo "/* adding just a comment to the code */" >> ./pgm/sas-git.sas
     ```
