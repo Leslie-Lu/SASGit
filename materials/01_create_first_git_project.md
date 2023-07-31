@@ -56,3 +56,26 @@
     ```
     git commit -am "added a comment"
     ```
+
+10. check repo history using the **git log** command
+    ```
+    git log --pretty=format:"%h %ae %s"
+    ```
+
+    the **pretty** option specifiers can make a more concise, readable history log with certain fields.
+
+    or can use the **--oneline** option for a quick view:
+    ```
+    git log --oneline
+    ```
+
+11. push to a remote repository
+    ```
+    <!-- git remote add origin <remote_repo_url> --> #only do this once
+    git push -u origin main
+    ```
+
+12. pull from a remote repository
+    ```
+    git pull origin main
+    ```
