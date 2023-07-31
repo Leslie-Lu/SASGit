@@ -48,7 +48,11 @@
     ```
 
 8. edit files, we can just use the ">>" to append something to the existing file's content
-
     ```
     echo "/* adding just a comment to the code */" >> ./pgm/sas-git.sas
+    ```
+
+9. stage and commit the files with this shortcut (-am means stage all and commit together)
+    ```
+    git commit -am "added a comment"
     ```
